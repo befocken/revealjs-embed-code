@@ -5,6 +5,8 @@ This repository contains a small and simple js plugin for embedding code files i
 
 The idea and basic design is based off of [a repository](https://github.com/dafrenchyman/reveal.js-extrernal-code) from `dafrenchyman`.
 
+A somewhat similar, but still different approach, can be found in [this repository](https://github.com/ldionne/reveal-sampler).
+
 ## Features
 - include code from files without copy-pasting it into your presentation
 ```html
