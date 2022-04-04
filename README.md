@@ -16,7 +16,7 @@ A somewhat similar, but still different approach, can be found in [this reposito
 ```html
 <code data-url="link-to-code-file" data-line-start="2" data-line-end="10"></code>
 ```
-- automatically remove a common indentation in every line (especially useful for highly indeted lines in the middle of code files)
+- automatically remove a common indentation in every line (especially useful for highly indented lines in the middle of code files)
 ```html
 <!-- in your presentation in the browser -->
 <div>
@@ -47,7 +47,7 @@ instead of
 <p>And this too!</p>
 <!-- listing-1-end -->
 
-<p>But this now anymore</p>
+<p>But this not anymore</p>
 ```
 
 ```html
