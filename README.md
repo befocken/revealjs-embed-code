@@ -119,6 +119,19 @@ This cannot be circumvented, also not by using `<iframe>` or `<object>` tags.
 More information can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors/CORSRequestNotHttp).
 
 ## How to install a local web server?
+The easiest way to get a local webserver up and running is likely via the `python` module `http.server` (in `python2` it's `HttpServer`).
+As it is bundled with `python` by default, it can simply be started with
+
+```
+python -m http.server
+```
+
+That's it!
+If you want to use the comfort of auto-reloading, I'd recommend the usage of the `npm` package `live-server`, which is explained in the following part.
+
+<details>
+<summary>Local Webserver with Live Reload</summary>
+
 Install [`nodejs`](https://nodejs.org/en/download/) and then initialize a new package with
 
 ```sh
@@ -138,4 +151,5 @@ Assuming that you presentation file lies in you current working directory and ha
 
 After making changes and saving them into your presentation file, the website should reload automatically.
 
-For more information look [here](https://www.npmjs.com/package/live-server).
+For more information take a look [here](https://www.npmjs.com/package/live-server).
+</details>
