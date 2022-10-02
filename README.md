@@ -78,13 +78,15 @@ Now, tell revealjs to load the plugin
 
 ```javascript
 plugins: [
-    EmbedCode,
     RevealMarkdown,
+    EmbedCode,
     RevealHighlight,
+    ...
 ],
 ```
 
-In case you also use e.g. `RevealHighlight`, make sure to load the `EmbedCode` plugin first, as the code content must be embedded first before it can be used by other plugins.
+In case you also use e.g. `RevealHighlight`, make sure to load the `EmbedCode` plugin first, as the code content must be embedded first before it can be used by other plugins.  
+If you want to use the plugin with the markdown code syntax, you can do so by loading the `RevealMarkdown` plugin first.
 
 That's it! Now you can use the plugin in your presentation.
 
